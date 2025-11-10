@@ -1,6 +1,6 @@
 # Opencode Persistence (opencode-persistence)
 
-Avoid extra logins from the Opencode by preserving the `~/.config/opencode` folder across container instances.
+Avoid extra logins from the Opencode by preserving the `~/.local/share/opencode` folder across container instances.
 
 ## Example Usage
 

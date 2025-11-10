@@ -40,7 +40,7 @@ create_symlink_dir() {
 }
 
 create_cache_dir "/dc/opencode" "${USERNAME}"
-create_symlink_dir "$_REMOTE_USER_HOME/.config/opencode" "/dc/opencode" "${USERNAME}"
+create_symlink_dir "$_REMOTE_USER_HOME/.local/share/opencode" "/dc/opencode" "${USERNAME}"
 
 # Set Lifecycle scripts
 if [ -f oncreate.sh ]; then

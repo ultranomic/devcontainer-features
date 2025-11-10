@@ -1,9 +1,9 @@
 {
   "name": "Opencode Persistence",
   "id": "opencode-persistence",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "documentationURL": "https://github.com/ultranomic/devcontainer-features/tree/main/src/opencode-persistence",
-  "description": "Avoid extra logins from the Opencode by preserving the `~/.config/opencode` folder across container instances.",
+  "description": "Avoid extra logins from the Opencode by preserving the `~/.local/share/opencode` folder across container instances.",
   "options": {},
   "mounts": [
     {
