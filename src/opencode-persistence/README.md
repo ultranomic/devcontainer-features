@@ -1,6 +1,6 @@
 # Opencode Persistence (opencode-persistence)
 
-Avoid extra logins from the Opencode by preserving the `~/.local/share/opencode` folder across container instances.
+Avoid extra logins from the Opencode by preserving the `~/.local/share/opencode` and `~/.config/opencode` folders across container instances.
 
 ## Example Usage
 
@@ -25,6 +25,7 @@ Shells: `bash`, `zsh`, `fish`
 
 ## Changelog
 
-| Version | Notes           |
-| ------- | --------------- |
-| 1.0.0   | Initial Version |
+| Version | Notes                                      |
+| ------- | ------------------------------------------ |
+| 1.1.0   | Persist `~/.config/opencode` alongside `~/.local/share/opencode` |
+| 1.0.0   | Initial Version                            |
